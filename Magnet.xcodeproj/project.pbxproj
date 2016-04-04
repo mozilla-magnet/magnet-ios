@@ -14,6 +14,12 @@
 		7F23D0411CA0062000A7FF9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F23D03F1CA0062000A7FF9D /* LaunchScreen.storyboard */; };
 		7F23D04C1CA0062000A7FF9D /* MagnetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23D04B1CA0062000A7FF9D /* MagnetTests.swift */; };
 		7F23D0571CA0062000A7FF9D /* MagnetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23D0561CA0062000A7FF9D /* MagnetUITests.swift */; };
+		7F23D0651CA009A700A7FF9D /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23D0641CA009A700A7FF9D /* TileView.swift */; };
+		7F23D0661CA009A700A7FF9D /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23D0641CA009A700A7FF9D /* TileView.swift */; };
+		7F23D0671CA009A700A7FF9D /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23D0641CA009A700A7FF9D /* TileView.swift */; };
+		7FEDE94A1CB27432007221FD /* BeaconScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEDE9491CB27432007221FD /* BeaconScanner.swift */; };
+		7FEDE94B1CB27432007221FD /* BeaconScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEDE9491CB27432007221FD /* BeaconScanner.swift */; };
+		7FEDE94C1CB27432007221FD /* BeaconScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEDE9491CB27432007221FD /* BeaconScanner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,8 @@
 		7F23D0521CA0062000A7FF9D /* MagnetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F23D0561CA0062000A7FF9D /* MagnetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetUITests.swift; sourceTree = "<group>"; };
 		7F23D0581CA0062000A7FF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F23D0641CA009A700A7FF9D /* TileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		7FEDE9491CB27432007221FD /* BeaconScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconScanner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,12 @@
 			children = (
 				7F23D0361CA0062000A7FF9D /* AppDelegate.swift */,
 				7F23D0381CA0062000A7FF9D /* ViewController.swift */,
+				7FEDE9491CB27432007221FD /* BeaconScanner.swift */,
 				7F23D03A1CA0062000A7FF9D /* Main.storyboard */,
 				7F23D03D1CA0062000A7FF9D /* Assets.xcassets */,
 				7F23D03F1CA0062000A7FF9D /* LaunchScreen.storyboard */,
 				7F23D0421CA0062000A7FF9D /* Info.plist */,
+				7F23D0641CA009A700A7FF9D /* TileView.swift */,
 			);
 			path = Magnet;
 			sourceTree = "<group>";
@@ -256,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FEDE94A1CB27432007221FD /* BeaconScanner.swift in Sources */,
 				7F23D0391CA0062000A7FF9D /* ViewController.swift in Sources */,
+				7F23D0651CA009A700A7FF9D /* TileView.swift in Sources */,
 				7F23D0371CA0062000A7FF9D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F23D0661CA009A700A7FF9D /* TileView.swift in Sources */,
+				7FEDE94B1CB27432007221FD /* BeaconScanner.swift in Sources */,
 				7F23D04C1CA0062000A7FF9D /* MagnetTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F23D0671CA009A700A7FF9D /* TileView.swift in Sources */,
+				7FEDE94C1CB27432007221FD /* BeaconScanner.swift in Sources */,
 				7F23D0571CA0062000A7FF9D /* MagnetUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +500,7 @@
 				7F23D05D1CA0062000A7FF9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F23D05E1CA0062000A7FF9D /* Build configuration list for PBXNativeTarget "MagnetTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +509,7 @@
 				7F23D0601CA0062000A7FF9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F23D0611CA0062000A7FF9D /* Build configuration list for PBXNativeTarget "MagnetUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +518,7 @@
 				7F23D0631CA0062000A7FF9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
